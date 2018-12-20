@@ -21,8 +21,8 @@ export default class AddRecruit extends React.Component {
       return (
         <div className="item">
           <form className="form" onSubmit={this.handleSubmit}>
-          <input className="form__input" type="text" name="recruitName" placeholder="Recruit Name"></input>
-          <button className="button">Add new recruit</button>
+          <input className="form__input" type="text" name="recruitName" placeholder="Sapper Name"></input>
+          <button className="button">Add new Sapper</button>
           </form>
         </div>
     );
